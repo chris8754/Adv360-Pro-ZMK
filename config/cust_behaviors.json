@@ -1,0 +1,18 @@
+[
+	{
+		"code": "&macro_workarea",
+		"name": "&macro_workarea",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&macro_",
+		"name": "&macro_",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	}
+]
