@@ -2,7 +2,7 @@ macro_hamvf_path: macro_hamvf_path{
 compatible = "zmk,behavior-macro";
 label = "macro_hamvf_path";
 #binding-cells = <0>;
-bindings = <&kp S>, <&kp U>, <&kp B>, <&kp LS(I)>, <&kp LS(P)>, <&kp FSLH>, <&kp C>, <&kp O>, <&kp M>, <&kp M>, <&kp O>, <&kp N>, <&kp FSLH>, <&kp H>, <&kp A>, <&kp M>, <&kp V>, <&kp F>, <&kp FSLH>, <&kp H>, <&kp A>, <&kp M>, <&kp V>, <&kp F>, <&kp UNDERSCORE>, <&kp C>, <&kp U>, <&kp R>, <&kp R>, <&kp E>, <&kp N>, <&kp T>, <&kp FSLH>;
+bindings = <&kp S>, <&kp U>, <&kp B>, <&kp LS(I)>, <&kp LS(P)>, <&kp FSLH>, <&kp C>, <&kp O>, <&kp M>, <&kp M>, <&kp O>, <&kp N>, <&kp FSLH>, <&kp H>, <&kp A>, <&kp M>, <&kp V>, <&kp F>, <&kp FSLH>, <&kp H>, <&kp A>, <&kp M>, <&kp V>, <&kp F>, <&kp UNDERSCORE>, <&kp C>, <&kp U>, <&kp R>, <&kp R>, <&kp E>, <&kp N>, <&kp T>;
 };
 macro_workarea: macro_workarea{
 compatible = "zmk,behavior-macro";
