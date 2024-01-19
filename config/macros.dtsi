@@ -14,7 +14,7 @@ macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
 #binding-cells = <0>;
-bindings = <&kp LS(S)>, <&kp A>, <&kp L>, <&kp A>, <&kp R>, <&kp Y>, <&kp DOLLAR>, <&kp NUMBER_3>, <&kp NUMBER_0>, <&kp NUMBER_0>, <&kp K>, <&kp ENTER>;
+bindings = <&kp DLLR>, <&kp NUMBER_4>, <&kp NUMBER_0>, <&kp NUMBER_0>, <&kp K>, <&kp LS(S)>, <&kp A>, <&kp L>, <&kp A>, <&kp R>, <&kp Y>, <&kp ENTER>;
 };
 macro_dquotes: macro_dquotes{
 compatible = "zmk,behavior-macro";
