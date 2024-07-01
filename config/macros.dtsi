@@ -1,26 +1,26 @@
-macro_hamvf_path: macro_hamvf_path{
+macro_zoomout: macro_zoomout{
 compatible = "zmk,behavior-macro";
-label = "macro_hamvf_path";
+label = "macro_zoomout";
 #binding-cells = <0>;
-bindings = <&kp S>, <&kp U>, <&kp B>, <&kp LS(I)>, <&kp LS(P)>, <&kp FSLH>, <&kp C>, <&kp O>, <&kp M>, <&kp M>, <&kp O>, <&kp N>, <&kp FSLH>, <&kp H>, <&kp A>, <&kp M>, <&kp V>, <&kp F>, <&kp FSLH>, <&kp H>, <&kp A>, <&kp M>, <&kp V>, <&kp F>, <&kp UNDERSCORE>, <&kp C>, <&kp U>, <&kp R>, <&kp R>, <&kp E>, <&kp N>, <&kp T>;
+bindings = <&kp LEFT_CONTROL>, <&kp LEFT_ALT>, <&kp LEFT_SHIFT>, <&kp MINUS>;
+};
+macro_zoomin: macro_zoomin{
+compatible = "zmk,behavior-macro";
+label = "macro_zoomin";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LEFT_ALT>, <&kp LSHFT>, <&kp PLUS>;
 };
 macro_workarea: macro_workarea{
 compatible = "zmk,behavior-macro";
 label = "macro_workarea";
 #binding-cells = <0>;
-bindings = <&kp E>, <&kp X>, <&kp P>, <&kp O>, <&kp R>, <&kp T>, <&kp SPACE>, <&kp LS(W)>, <&kp LS(O)>, <&kp LS(R)>, <&kp LS(K)>, <&kp LS(A)>, <&kp LS(R)>, <&kp LS(E)>, <&kp LS(A)>, <&kp EQUAL>, <&kp GRAVE>, <&kp P>, <&kp W>, <&kp D>, <&kp GRAVE>, <&kp RETURN>;
+bindings = <&kp E>, <&kp X>, <&kp P>, <&kp O>, <&kp R>, <&kp T>, <&kp SPACE>, <&kp LS(W)>, <&kp LS(O)>, <&kp LS(R)>, <&kp LS(K)>, <&kp LS(A)>, <&kp LS(R)>, <&kp LS(E)>, <&kp LS(A)>, <&kp EQUAL>, <&kp GRAVE>, <&kp R>, <&kp E>, <&kp A>, <&kp L>, <&kp P>, <&kp A>, <&kp T>, <&kp H>, <&kp GRAVE>, <&kp RETURN>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
 #binding-cells = <0>;
-bindings = <&kp N0>, <&kp N>, <&kp CARET>, <&kp LS(N)>, <&kp E>, <&kp W>, <&kp LS(T)>, <&kp H>, <&kp I>, <&kp N>, <&kp G>, <&kp S>, <&kp ENTER>;
-};
-macro_dquotes: macro_dquotes{
-compatible = "zmk,behavior-macro";
-label = "macro_dquotes";
-#binding-cells = <0>;
-bindings = <&kp DQT>, <&kp DQT>, <&kp LEFT>;
+bindings = <&kp R>, <&kp N0>, <&kp C>, <&kp K>, <&kp ASTERISK>, <&kp N>, <&kp G>, <&kp LS(C)>, <&kp LS(C)>, <&kp LS(F)>, <&kp ENTER>;
 };
 macro_braces: macro_braces{
 compatible = "zmk,behavior-macro";
